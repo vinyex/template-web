@@ -1,0 +1,109 @@
+body {
+	color: black;
+	background-image: url('img/image1.jpg');
+	width: 960px; /*lebar body website*/
+	margin: 30px auto; /*set posisi body*/
+}
+
+h1.judul{
+	text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 1px purple;
+	color: pink;
+}
+
+main{
+	display: flex;
+}
+
+a.sidebar{
+	position: relative;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+a.sidebar:link, a.sidebar:visited {
+    background-color: pink;
+    color: black;
+    text-shadow: gray;
+    padding: 20px 75px;
+    display: inline-block;
+}
+
+a.sidebar:hover, a.sidebar:active {
+    background-color: hotpink;
+}
+
+.logo,
+.konten,
+.sidebar,
+.footer{
+	margin-bottom: 5px;
+	padding: 15px 0;	
+}
+
+.logo{
+	position: relative;
+	max-width: 100%;
+	height: auto;
+	background-color: transparent;
+	text-align: center;
+}
+
+h3.nav{
+	text-align: auto;
+	text-transform: uppercase;
+	color: black;
+}
+
+a.tombol{
+	text-decoration: underline;
+}
+
+.konten{
+	/*background: #ffe8e8;*/
+	background-color: transparent;
+}
+
+ul.kotak{
+    list-style-type: square;
+}
+
+
+div.konten1{
+	border: 1px solid black;
+    padding: 10px;
+    width: 10	0%;
+    height: 75%;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.sidebar{
+	/*background: #ffe8e8;*/
+	background-color: transparent;
+}
+
+p.ridge{
+	border-style: ridge;
+	border-color: #6a5f31;
+	margin: 10px;
+	padding: 5px;
+}
+
+.footer{
+	width: 100%;
+	/*background: #ffe8e8;*/
+	background-color: transparent;
+	text-align: center;
+}
+
+
+p.fone{
+	margin: 50px;
+	border: 1px solid black;
+	border-radius: 12px;
+	text-indent: 5px;
+	background-color: transparent;
+}
